@@ -70,7 +70,7 @@ ul li a {
 
 .hero-info .hero-btn {
     display: inline-block;
-    background-color: rgb(225, 102, 14);
+    background-color: #e1660e;
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -80,4 +80,38 @@ ul li a {
 .hero-img {
     width: 100%;
     padding: 2rem;
+}
+
+.blog-title {
+    margin: 2rem 0;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.blog-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+    padding: 0 2rem;
+}
+
+.blog-item img {
+    width: 100%;
+}
+
+.blog-item h4 {
+    margin-top: 1rem;
+}
+
+.blog-item p {
+    margin: 1rem 0;
+}
+
+.blog-item a {
+    display: inline-block;
+    color: white;
+    background-color: #e1660e;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
 }
